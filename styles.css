@@ -9,13 +9,13 @@ body {
 nav {
   padding-left: 2%;
   padding-right: 2%;
-  background-color: #990300 !important;
+  background-color: #0A3F66 !important;
   border: none !important;
   border-radius: 0px !important;
 }
 
 .main-articles, .side-articles {
-  border-right: 1px #990300 solid;
+  border-right: 1px #0A3F66 solid;
 }
 
 @media (max-width: 990px) {
@@ -50,7 +50,7 @@ img {
 }
 
 hr {
-  border-color: #990300;
+  border-color: #0A3F66;
 }
 
 .article {
