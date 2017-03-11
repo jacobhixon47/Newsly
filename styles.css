@@ -1,0 +1,55 @@
+.form-input {
+  width: 100%;
+}
+
+body {
+  background-color: #eee;
+}
+
+nav {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #990300 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+@media (max-width: 990px) {
+  .signup-form {
+    display: none;
+  }
+}
+
+.main-articles {
+  border-right: 1px #990300 solid;
+}
+
+.navbar-brand {
+  color: #ddd !important;
+}
+
+.nav-list li a {
+  color: #ddd !important;
+}
+.nav-list li a:hover {
+  color: #bbb !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  border-color: #990300;
+}
+
+.article {
+  background-color: #ddd;
+  padding: 3%;
+  display: none;
+}
+
+.article:hover {
+  cursor: pointer;
+}
