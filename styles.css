@@ -14,15 +14,24 @@ nav {
   border-radius: 0px !important;
 }
 
+.main-articles, .side-articles {
+  border-right: 1px #990300 solid;
+}
+
 @media (max-width: 990px) {
   .signup-form {
     display: none;
   }
+  .main-articles, .side-articles {
+    border-right: none;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-form {
+    display: none;
+  }
 }
 
-.main-articles {
-  border-right: 1px #990300 solid;
-}
 
 .navbar-brand {
   color: #ddd !important;
@@ -51,5 +60,18 @@ hr {
 }
 
 .article:hover {
+  cursor: pointer;
+  background-color: #bbb;
+}
+
+.search-input {
+  background-color: #ddd;
+}
+
+.event {
+  padding: 3%;
+}
+.event:hover {
+  background-color: #bbb;
   cursor: pointer;
 }
